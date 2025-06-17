@@ -215,7 +215,7 @@ aws s3api put-bucket-notification-configuration \
 ## 10. Final Test – Upload a New Image
 
 ```bash
-aws s3 cp {LOCAL_IMAGE_FILE}.png s3://{BUCKET_NAME}/
+aws s3 cp {LOCAL_IMAGE_FILE} s3://{BUCKET_NAME}/
 ```
 
 This should automatically invoke your Lambda function and produce an output .json file.
