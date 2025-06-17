@@ -102,7 +102,7 @@ aws s3 mb s3://{BUCKET_NAME}
 ### 7.5. Upload an Image
 
 ```bash
-aws s3 cp 4915.png s3://{BUCKET_NAME}/test-image.png
+aws s3 cp 4915.png s3://{BUCKET_NAME}/{FILE_NAME}
 ```
 
 ### 7.6. Run Docker Locally
