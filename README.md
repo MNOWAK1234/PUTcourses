@@ -62,3 +62,4 @@ This repository contains coding tasks and projects from the following study prog
 - **IMO** – Intelligent Optimization Methods
 - **ISWD** – Intelligent Methods for Decision Support
 - **BDSP** – Big Data Stream Processing
+- **MLOps** – Machine Learning Operations
