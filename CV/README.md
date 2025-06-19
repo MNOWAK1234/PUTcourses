@@ -12,4 +12,4 @@
 - **Lab10**: Introduction to Pytorch and Tensorflow
 - **Lab11**: Inference and Fine-Tuning
 - **Lab12**: Generative Adversarial Network
-- **Project3**: ???
+- **Project3**: Attention Mechanisms in Visual Question Answering
