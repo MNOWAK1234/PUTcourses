@@ -9,10 +9,12 @@ This repository contains coding tasks and projects from the following study prog
 ## Term 1
 
 - **ITAI** – Introduction to Artificial Intelligence
+- **WDA** – Introduction to Algorithmics
 
 ## Term 2
 
 - **PD** – Declarative Programming
+- **AP** – Advanced Algorithmics
 
 ## Term 3
 
