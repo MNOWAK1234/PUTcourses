@@ -65,3 +65,7 @@ This repository contains coding tasks and projects from the following study prog
 - **ISWD** – Intelligent Methods for Decision Support
 - **BDSP** – Big Data Stream Processing
 - **MLOps** – Machine Learning Operations
+
+## Term 9
+
+- **AMIB** – Biologically Inspired Algorithms and Methods
