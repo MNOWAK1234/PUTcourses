@@ -1,0 +1,9 @@
+# Ignore the scraped CSV file
+wikipedia_articles.csv
+
+# Ignore all .txt files inside the documents folder
+documents/*.txt
+
+# Optional (but recommended): ignore Python caches
+__pycache__/
+*.pyc

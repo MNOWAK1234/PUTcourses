@@ -40,6 +40,7 @@ This repository contains coding tasks and projects from the following study prog
 - **ES** – Embedded Systems
 - **SE** – Software Engineering
 - **SK2** – Computer Networks 2
+- **IR** - Information Retrieval
 
 ## Term 6
 
