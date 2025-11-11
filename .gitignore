@@ -1,2 +1,5 @@
 **/__pycache__/
 .vscode/
+*.class
+BDSP/**/*NASDAQ.csv
+BDSP/**/*NYSE.csv
