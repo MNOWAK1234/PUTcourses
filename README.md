@@ -69,4 +69,5 @@ This repository contains coding tasks and projects from the following study prog
 
 ## Term 9
 
+- **ANLP** – Advanced Natural Language Processing
 - **AMIB** – Biologically Inspired Algorithms and Methods
