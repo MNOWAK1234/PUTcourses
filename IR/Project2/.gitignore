@@ -7,3 +7,5 @@ documents/*.txt
 # Optional (but recommended): ignore Python caches
 __pycache__/
 *.pyc
+
+*.parquet
