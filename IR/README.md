@@ -8,5 +8,7 @@
 - **Project2**: Wikipedia Article Recommendation System
 - **Lab05**: Associacion Rules
 - **Project3**: Associacion Rules Extraction
-- **Lab06**: User Similarity
-- **Project4**: Movie Recommendation Engine
+- **Lab06**: LevenshteinDistance
+- **Project4**: Title Search Engine
+- **Lab07**: User Similarity
+- **Project5**: Movie Recommendation Engine
