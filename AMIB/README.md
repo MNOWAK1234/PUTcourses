@@ -2,7 +2,7 @@
 
 - **Lab01**: Introduction to Framsticks
 - **Lab02**: Genetic Formats
-- **Lab03**:
+- **Lab03**: Fitness Landscape
 - **Lab04**:
 - **Lab05**:
 - **Lab06**:
