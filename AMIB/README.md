@@ -2,7 +2,7 @@
 
 - **Lab01**: Introduction to Framsticks
 - **Lab02**: Genetic Formats
-- **Lab03**: Fitness Landscape
+- **Lab03**: Muscles And Sensors
 - **Lab04**:
 - **Lab05**:
 - **Lab06**:
