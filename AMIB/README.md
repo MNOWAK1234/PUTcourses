@@ -4,6 +4,6 @@
 - **Lab02**: Genetic Formats
 - **Lab03**: Muscles And Sensors
 - **Lab04**: Fitness Landscape Examination
-- **Lab05**:
+- **Lab05**: Epistasis
 - **Lab06**:
 - **Lab07**:
