@@ -5,5 +5,5 @@
 - **Lab03**: Muscles And Sensors
 - **Lab04**: Fitness Landscape Examination
 - **Lab05**: Epistasis
-- **Lab06**:
+- **Lab06**: Genetic Programming
 - **Lab07**:
