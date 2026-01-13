@@ -49,12 +49,6 @@ docker push {ACCOUNT_ID}.dkr.ecr.{REGION}.amazonaws.com/cifar10-lambda:latest
 ## 6. Verify Uploaded Image
 
 ```bash
-docker push {ACCOUNT_ID}.dkr.ecr.{REGION}.amazonaws.com/cifar10-lambda:latest
-```
-
-## 6. Verify Uploaded Image
-
-```bash
 aws ecr describe-images --repository-name cifar10-lambda
 ```
 
