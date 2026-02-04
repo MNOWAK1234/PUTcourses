@@ -72,3 +72,4 @@ This repository contains coding tasks and projects from the following study prog
 - **ANLP** – Advanced Natural Language Processing
 - **AMIB** – Biologically Inspired Algorithms and Methods
 - **TDS** – Social Good Technologies
+- **DL** – Deep Learning
