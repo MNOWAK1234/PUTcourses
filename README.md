@@ -73,3 +73,7 @@ This repository contains coding tasks and projects from the following study prog
 - **AMIB** – Biologically Inspired Algorithms and Methods
 - **TDS** – Social Good Technologies
 - **DL** – Deep Learning
+
+## Term 10
+
+- **GAI** – Game AI
