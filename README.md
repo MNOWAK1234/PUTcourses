@@ -77,3 +77,5 @@ This repository contains coding tasks and projects from the following study prog
 ## Term 10
 
 - **GAI** – Game AI
+- **AIBI** – Artificial Intelligence in Biomedical Informatics
+- **MDV** – Multidimensional Data Visualization
