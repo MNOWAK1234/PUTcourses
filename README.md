@@ -1,10 +1,16 @@
 # Coursework and Coding Tasks – Poznań University of Technology
 
-This repository contains coding tasks and projects from the following study programs:
+This repository contains coding tasks, projects and theses from the following study programs:
 
 - **Bachelor in Computer Science** (2021–2025)
 - **Bachelor in Artificial Intelligence** (2023–ongoing)
-- **Master in Computer Science (Specialization: Artificial Intelligence)** (2025–ongoing)
+- **Master in Computer Science (Specialization: Artificial Intelligence)** (2025–2026)
+
+## Theses
+
+- **B.Sc. Computer Science** – *Cross-platform mobile application for indoor navigation in buildings*
+- **B.Sc. Artificial Intelligence** – thesis planned
+- **M.Sc. Computer Science, Artificial Intelligence specialization** – *Novel rating system for chess*
 
 ## Term 1
 
@@ -40,7 +46,7 @@ This repository contains coding tasks and projects from the following study prog
 - **ES** – Embedded Systems
 - **SE** – Software Engineering
 - **SK2** – Computer Networks 2
-- **IR** - Information Retrieval
+- **IR** – Information Retrieval
 
 ## Term 6
 

@@ -1,0 +1,12 @@
+beautifulsoup4
+duckdb
+igraph
+matplotlib
+numba
+numpy
+pandas
+paramiko
+pyarrow
+requests
+scipy
+tqdm

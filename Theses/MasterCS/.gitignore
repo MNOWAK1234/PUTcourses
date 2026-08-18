@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Large data files
+*.parquet
+*.duckdb
+*.npz
+*.zip
+*.tar
+*.tar.gz
+data/
+raw/
+intermediate/
+
+# Experiment outputs generated locally
+experiments/cache/
+experiments/plots/
+experiments/results/
+outputs/
+!outputs/README.md
+
+# Secrets / machine-specific files
+servers.csv
+shard_plan.csv
+*.pem
+*.key
+*.ppk
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

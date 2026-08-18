@@ -1,0 +1,123 @@
+STANDALONE DYNAMIC POOL RATING EXPERIMENT REPORT
+============================================================================================
+
+Najlepsze parametry wybrane wyłącznie na walidacji:
+{
+  "base_k": 37.54035803609192,
+  "scale_base": 388.5755022580655,
+  "scale_level_slope": 24.872066869557827,
+  "scale_abs_diff_slope": -35.43726925809114,
+  "white_advantage": 36.10602326034731,
+  "white_advantage_level_slope": -1.1695022079756965,
+  "initial_uncertainty": 1.3380392038324733,
+  "uncertainty_floor": 0.1017754854798629,
+  "uncertainty_cap": 2.6814872059577994,
+  "uncertainty_k_weight": 2.269087982457889,
+  "opponent_uncertainty_k_damping": 0.6840459299289491,
+  "prediction_uncertainty_scale_weight": 0.9182900349169851,
+  "uncertainty_game_decay": 0.9363971314692819,
+  "inactivity_uncertainty_growth": 0.010007107534755819,
+  "form_gain": 0.39586947754793833,
+  "form_event_decay": 0.9415074613533045,
+  "form_month_decay": 0.9711772767356108,
+  "form_limit": 126.41329338731762,
+  "event_residual_norm_power": 0.111678059620505,
+  "event_residual_clip": 5.397467839061462,
+  "rating_month_reversion": 0.9998606036917577,
+  "pool_k": 4.336873474624748,
+  "pool_weight": 2.4147583497932072,
+  "pool_month_decay": 0.9998539164124942,
+  "pool_limit": 299.66366570338647,
+  "pool_event_norm_power": 0.43448739628813604,
+  "pool_residual_clip": 2.286326248767262,
+  "pool_exposure_gain": 0.009186434521334833,
+  "pool_exposure_month_decay": 0.999985330186842,
+  "initial_home_pool_exposure": 0.9232151716798221,
+  "pool_dominant_threshold": 0.27747220578292653,
+  "pool_pair_k": 1.1142796707383165,
+  "pool_pair_weight": 0.5005625854349774,
+  "pool_pair_month_decay": 0.9933169612602885,
+  "pool_pair_limit": 58.66280692275501,
+  "provisional_games_target": 12.0,
+  "provisional_prior_games": 6.118142600345819,
+  "provisional_performance_clip": 737.2904452581066,
+  "provisional_blend": 0.7235426075275214,
+  "provisional_k_multiplier": 1.8041655001120585,
+  "provisional_pool_adjustment": 0.5962635858651971,
+  "pool_pair_shrinkage_games": 51.13398248094479,
+  "pool_centering_strength": 0.0,
+  "max_pool_exposures": 3.0
+}
+
+Wyniki TEST / końcowego okresu ewaluacyjnego:
+                                     model scope  games_all  mse_all  mae_all  games_shared_with_fide  mse_shared_with_fide  fide_official_mse_on_shared  max_abs_pool_offset  max_abs_pair_offset  improvement_vs_classic_percent  improvement_vs_fide_on_shared_percent
+                  provisional_without_form  test    7393544 0.143988 0.322156                 5946127              0.139323                     0.149907           299.663666            58.662807                        7.715502                               7.060286
+        provisional_without_pair_shrinkage  test    7393544 0.143992 0.322148                 5946127              0.139329                     0.149907           299.663666            58.662807                        7.712761                               7.056653
+                          provisional_full  test    7393544 0.143993 0.322149                 5946127              0.139329                     0.149907           299.663666            58.662807                        7.712545                               7.056630
+               provisional_max_exposures_3  test    7393544 0.143993 0.322149                 5946127              0.139329                     0.149907           299.663666            58.662807                        7.712545                               7.056630
+        provisional_without_pool_centering  test    7393544 0.143993 0.322149                 5946127              0.139329                     0.149907           299.663666            58.662807                        7.712545                               7.056630
+               provisional_max_exposures_2  test    7393544 0.144028 0.322223                 5946127              0.139402                     0.149907           299.663666            58.662807                        7.689994                               7.007456
+      provisional_without_pair_interaction  test    7393544 0.144050 0.322290                 5946127              0.139339                     0.149907           299.663666             0.000000                        7.676047                               7.049764
+            provisional_without_tail_scale  test    7393544 0.144073 0.324097                 5946127              0.139319                     0.149907           299.663666            58.662807                        7.660907                               7.063172
+    provisional_without_entry_acceleration  test    7393544 0.144111 0.323525                 5946127              0.139490                     0.149907           299.663666            58.662807                        7.636774                               6.948953
+               provisional_exactly_9_games  test    7393544 0.144134 0.322262                 5946127              0.139338                     0.149907           299.663666            58.662807                        7.621803                               7.050353
+               provisional_max_exposures_1  test    7393544 0.144381 0.322757                 5946127              0.139954                     0.149907           299.663666            58.662807                        7.463585                               6.639605
+   provisional_without_event_normalization  test    7393544 0.144480 0.320867                 5946127              0.139500                     0.149907           299.511927            58.247255                        7.400164                               6.941994
+       provisional_without_white_advantage  test    7393544 0.144538 0.323217                 5946127              0.139944                     0.149907           299.663666            58.662807                        7.363363                               6.646158
+provisional_without_uncertainty_prediction  test    7393544 0.145920 0.317253                 5946127              0.140316                     0.149907           299.473642            58.318129                        6.477564                               6.398148
+              provisional_fixed_1500_entry  test    7393544 0.146356 0.324138                 5946127              0.139669                     0.149907           299.663666            58.662807                        6.198187                               6.829722
+                             advanced_seed  test    7393544 0.146868 0.325186                 5946127              0.141038                     0.149907           175.717865            96.859786                        5.869711                               5.916464
+                    provisional_simplified  test    7393544 0.148872 0.318575                 5946127              0.142179                     0.149907           252.058746             0.000000                        4.585615                               5.155288
+                     previous_dynamic_seed  test    7393544 0.150849 0.334480                 5946127              0.144140                     0.149907           203.044825             0.000000                        3.318188                               3.847045
+      provisional_without_dynamic_exposure  test    7393544 0.151208 0.327758                 5946127              0.141120                     0.149907           292.424030            56.471085                        3.088173                               5.861438
+     provisional_without_performance_entry  test    7393544 0.151462 0.322546                 5946127              0.141042                     0.149907           285.061089            57.132827                        2.925555                               5.913449
+                        provisional_9_seed  test    7393544 0.154972 0.330937                 5946127              0.141057                     0.149907           174.934724            76.945071                        0.675867                               5.903369
+                               classic_elo  test    7393544 0.156026 0.347232                 5946127              0.146114                     0.149907             0.000000             0.000000                        0.000000                               2.530308
+                  provisional_without_pool  test    7393544 0.156241 0.331646                 5946127              0.141211                     0.149907             0.000000             0.000000                       -0.137721                               5.800796
+
+Interpretacja:
+- mse_all porównuje własne systemy na wszystkich unikalnych partiach.
+- mse_shared_with_fide porównuje model na partiach z benchmarkiem FIDE.
+- ablation study pokazuje, czy pomagają pule, dynamiczne ekspozycje,
+  interakcje par pul, shrinkage, centrowanie oraz liczba ekspozycji.
+- osobne ablacje mierzą wpływ performance ratingu pierwszych N partii
+  i zwiększonej reaktywności K dla zawodników prowizorycznych.
+- wariant provisional_fixed_1500_entry odtwarza wejście bez mechanizmu
+  performance: każdy nowy gracz zaczyna od 1500 i nie ma dodatkowego K.
+- parametr TEST nie wpływał na wybór najlepszego kandydata.
+
+Diagnostyka skali ratingów końcowych:
+- percentyle końcowe są liczone dokładnie; miesięczne percentyle histogramowo co 5 punktów.
+- min/max pomagają wychwycić eksplozję skali; p01..p99 pokazują typowy rozkład.
+                                     model  players_seen  effective_min  effective_p01  effective_p10  effective_p25  effective_p50  effective_p75  effective_p90  effective_p99  effective_max    effective_min_player_key       effective_max_player_key   base_min    base_p50    base_max  sanity_warning
+                               classic_elo        597530     896.045301    1293.182140    1395.413616    1441.272722    1482.336562    1533.243202    1629.460442    1890.373934    2390.142109                 id:21838070                    id:12940690 896.045301 1482.336562 2390.142109           False
+                     previous_dynamic_seed        597530     978.095517    1347.693506    1476.999393    1543.329749    1615.676889    1698.656225    1798.072568    2047.540998    2510.513480                 id:21838070                    id:12940690 847.714644 1485.236833 2364.101009           False
+                             advanced_seed        597530     821.937446    1193.908048    1357.311987    1449.871338    1568.258932    1719.952865    1874.075437    2161.801823    2667.194513                  id:1442350                    id:12940690 642.049776 1469.676899 2446.545139           False
+                        provisional_9_seed        597530     523.688131     883.079260    1098.106187    1232.031037    1389.308457    1551.094887    1707.459575    2005.209594    2520.195382                  id:1442350 name:rameshbabu praggnanandhaa 493.749885 1362.064446 2446.986146           False
+                          provisional_full        597530     749.106177    1221.629147    1403.405428    1524.596848    1686.638567    1880.394982    2079.961335    2492.709756    3427.789316                 id:32043228                     id:2016192 554.253784 1539.366656 3184.211867           False
+              provisional_fixed_1500_entry        597530     773.454681    1118.300476    1297.160589    1406.696648    1546.862956    1727.333397    1924.028563    2330.847852    3261.246784                 id:32099240                     id:2016192 425.604648 1441.576031 2890.383210           False
+     provisional_without_performance_entry        597530     205.346620     886.066057    1113.779214    1263.539003    1447.634470    1649.554448    1852.006643    2265.431290    3229.929407 name:bravo rodriguez miguel                    id:24180637 129.203573 1345.963523 2993.074204           False
+    provisional_without_entry_acceleration        597530     882.717135    1275.942662    1443.860169    1547.571597    1695.186978    1882.918993    2083.027426    2497.866235    3453.073744                 id:32099240                     id:2016192 562.101123 1558.304983 3153.943845           False
+               provisional_exactly_9_games        597530     798.184108    1212.873597    1398.613764    1520.608913    1682.029334    1875.695643    2075.873597    2488.048427    3415.297302                 id:32043228                     id:2016192 561.975497 1535.568025 3139.212424           False
+                  provisional_without_pool        597530     509.011453     912.969077    1075.076511    1186.365871    1328.745739    1483.146606    1637.294643    1976.224470    2764.069810   name:brzezicka aleksandra                     id:1503014 510.996360 1328.826609 2763.846022           False
+      provisional_without_dynamic_exposure        597530     578.634881     997.739697    1178.381003    1294.997520    1444.422753    1613.724042    1794.506056    2197.992598    3136.323571                  id:1442350                     id:1503014 505.601653 1428.675879 2924.775372           False
+      provisional_without_pair_interaction        597530     746.328932    1213.304062    1396.799708    1517.382178    1677.855832    1869.998496    2068.583851    2482.158654    3430.342135                 id:32043228                     id:2016192 559.914995 1536.985959 3185.704622           False
+        provisional_without_pair_shrinkage        597530     749.152929    1221.689228    1403.452064    1524.631996    1686.699821    1880.466002    2080.048124    2492.715646    3427.786544                 id:32043228                     id:2016192 554.214693 1539.367367 3184.209429           False
+        provisional_without_pool_centering        597530     749.106177    1221.629147    1403.405428    1524.596848    1686.638567    1880.394982    2079.961335    2492.709756    3427.789316                 id:32043228                     id:2016192 554.253784 1539.366656 3184.211867           False
+               provisional_max_exposures_1        597530     761.508267    1250.062078    1429.243696    1552.424969    1716.894213    1912.670539    2110.105112    2503.958929    3381.288548                 id:32043228                    id:12940690 511.889977 1555.606487 3325.456654           False
+               provisional_max_exposures_2        597530     750.189271    1224.892673    1406.359058    1527.674453    1689.778504    1883.517734    2082.366663    2491.569020    3421.731372                 id:32043228                     id:2016192 549.163819 1541.471443 3174.354480           False
+               provisional_max_exposures_3        597530     749.106177    1221.629147    1403.405428    1524.596848    1686.638567    1880.394982    2079.961335    2492.709756    3427.789316                 id:32043228                     id:2016192 554.253784 1539.366656 3184.211867           False
+                  provisional_without_form        597530     750.689434    1222.177250    1403.848015    1524.874781    1686.780501    1880.499968    2080.015027    2492.772402    3428.434849                 id:32043228                     id:2016192 554.092385 1539.514555 3184.595253           False
+       provisional_without_white_advantage        597530     742.800007    1222.189697    1403.842963    1524.932063    1687.023408    1880.803440    2080.281909    2492.679631    3429.186662                 id:32043228                     id:2016192 557.892326 1539.696034 3184.603141           False
+provisional_without_uncertainty_prediction        597530     694.739645    1241.507478    1415.407901    1529.501450    1677.987777    1853.854526    2034.916532    2403.417757    3220.418530                 id:32043228                     id:2016192 618.639811 1527.813167 3025.750859           False
+   provisional_without_event_normalization        597530     581.268202    1160.165818    1356.290603    1485.351090    1654.376615    1856.342503    2066.681715    2504.148703    3475.532826                 id:32043228                     id:1503014 542.261446 1519.127682 3250.899003           False
+            provisional_without_tail_scale        597530     748.290905    1206.420974    1393.692968    1516.810582    1681.372930    1879.844062    2085.672903    2518.293944    3510.765346                 id:32043228                     id:2016192 516.726681 1537.342836 3250.198654           False
+                    provisional_simplified        597530     515.129926    1092.185805    1299.005039    1425.450498    1578.863277    1752.538605    1925.867831    2256.232700    2829.740844                 id:32043228                     id:4180968 507.729873 1477.913599 2724.016450           False
+
+Pliki diagnostyczne ratingów:
+experiments\results\final_rating_distributions.csv
+experiments\results\final_rating_extreme_players.csv
+experiments\results\monthly_rating_distributions.csv
+
+Wykresy:
+experiments\plots
